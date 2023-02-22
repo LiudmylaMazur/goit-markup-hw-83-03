@@ -1,0 +1,188 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cloud: #f4f4fd;
+  --color-width: #ffffff;
+  --color-corn-flower: #e7e9fc;
+}
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* -------------header------------ */
+.header {
+}
+.header-logo {
+  color: var(--color-iris);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-studio {
+  color: var(--color-navy-blue);
+}
+.header-list {
+}
+.header-link {
+  color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-ocean);
+}
+.header-link-mail {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-link-mail:hover,
+.header-link-mail:focus {
+  color: var(--color-ocean);
+}
+.header-link-tel {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-link-tel:hover,
+.header-link-tel:focus {
+  color: var(--color-ocean);
+}
+/*-----------------main-----------*/
+.section-main {
+  background-color: var(--color-navy-blue);
+}
+.caption-one {
+  color: var(--color-width);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.button {
+  background-color: var(--color-iris);
+  color: var(--color-width);
+  width: 169px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--color-ocean);
+}
+/*---------------section-first----*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section-first {
+}
+.caption-two {
+  color: var(--color-navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.caption-three {
+  color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.paragraf {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*------section-what----*/
+.section-what {
+}
+/*-----------section-our----*/
+.section-our {
+  background-color: var(--color-cloud);
+}
+
+/*------section-footer-----*/
+.section-footer {
+  background-color: var(--color-navy-blue);
+}
+.header-logo-footer {
+  color: var(--color-cloud);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.paragraf-footer {
+  color: var(--color-corn-flower);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*-------button-portfolio----*/
+.button-portfolio {
+  background-color: var(--color-cloud);
+  color: var(--color-iris);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--color-ocean);
+  color: var(--color-width);
+  cursor: pointer;
+}
+/*-----------portfolio-card----*/
+.portfolio-card {
+}
