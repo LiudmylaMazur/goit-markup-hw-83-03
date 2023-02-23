@@ -31,9 +31,11 @@ h5,
 h6 {
   margin-top: 0;
 }
-.section {
-}
+
 /* -------------header------------ */
+.section {
+  padding: 120px 156px;
+}
 .header {
 }
 .header-logo {
