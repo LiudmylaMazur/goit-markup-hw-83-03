@@ -67,7 +67,7 @@ a {
 .list {
   display: flex;
   gap: 24px;
-  align-items: center;
+  list-style: none;
 }
 .link {
   text-decoration: none;
@@ -187,6 +187,8 @@ a {
   overflow: hidden;
 }
 .section-first {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .caption-two {
   color: var(--color-navy-blue);
@@ -197,6 +199,10 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.list-first {
+  text-align: left;
+}
+
 .caption-three {
   color: var(--color-navy-blue);
   font-weight: 500;
