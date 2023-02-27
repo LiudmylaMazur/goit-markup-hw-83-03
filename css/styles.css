@@ -67,9 +67,11 @@ a {
 .list {
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 .link {
   text-decoration: none;
+  align-items: center;
 }
 /* -------------header------------ */
 
@@ -104,8 +106,7 @@ a {
   gap: 40px;
 }
 .current {
-  color: var(--primary-brand);
-  margin: 76px;
+  color: var(--color-iris);
 }
 .header-item {
 }
@@ -145,6 +146,8 @@ a {
 /*-----------------main-----------*/
 .section-main {
   background-color: var(--color-navy-blue);
+  padding-top: 192px;
+  padding-bottom: 192px;
 }
 .caption-one {
   color: var(--color-width);
@@ -153,6 +156,7 @@ a {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  padding-bottom: 48px;
 }
 .button {
   background-color: var(--color-iris);
