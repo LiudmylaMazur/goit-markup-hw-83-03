@@ -198,11 +198,11 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .list-first {
   text-align: left;
 }
-
 .caption-three {
   color: var(--color-navy-blue);
   font-weight: 500;
@@ -219,15 +219,33 @@ a {
 }
 /*------section-what----*/
 .section-what {
+  padding-bottom: 120px;
+}
+.list-what {
+  gap: 24px;
+  display: flex;
 }
 /*-----------section-our----*/
 .section-our {
   background-color: var(--color-cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-
+.section-our-item {
+}
+.our-team {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 /*------section-footer-----*/
 .section-footer {
   background-color: var(--color-navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .header-logo-footer {
   color: var(--color-cloud);
