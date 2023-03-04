@@ -247,6 +247,12 @@ a {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
 .header-logo-footer {
   color: var(--color-cloud);
   font-weight: 800;
@@ -258,10 +264,12 @@ a {
 }
 .paragraf-footer {
   color: var(--color-corn-flower);
+  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 /*-------button-portfolio----*/
 .button-portfolio {
