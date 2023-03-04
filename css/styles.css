@@ -272,11 +272,13 @@ a {
   text-align: left;
 }
 /*-------button-portfolio----*/
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
 .button-section {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
 }
 .button-portfolio {
   background-color: var(--color-cloud);
@@ -297,4 +299,17 @@ a {
 }
 /*-----------portfolio-card----*/
 .portfolio-card {
+  padding: 120px;
+}
+.card-list {
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.card-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
