@@ -272,6 +272,12 @@ a {
   text-align: left;
 }
 /*-------button-portfolio----*/
+.button-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
 .button-portfolio {
   background-color: var(--color-cloud);
   color: var(--color-iris);
@@ -280,6 +286,8 @@ a {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  height: 48px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
